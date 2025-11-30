@@ -1,0 +1,40 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* LazyVimx Custom Theme - Inspired by Catppuccin */
+:root {
+  /* Catppuccin Latte colors */
+  --ifm-color-primary: #8839ef;
+  --ifm-color-primary-dark: #7c2eeb;
+  --ifm-color-primary-darker: #7628e7;
+  --ifm-color-primary-darkest: #6115dc;
+  --ifm-color-primary-light: #9444f3;
+  --ifm-color-primary-lighter: #9a4af7;
+  --ifm-color-primary-lightest: #ac5ffb;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(136, 57, 239, 0.1);
+  --ifm-font-family-base:
+    system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  --ifm-font-family-monospace:
+    "JetBrains Mono", "Fira Code", "Consolas", "Monaco", "Courier New",
+    monospace;
+}
+
+/* Catppuccin Macchiato dark theme */
+[data-theme="dark"] {
+  --ifm-color-primary: #c6a0f6;
+  --ifm-color-primary-dark: #b889f4;
+  --ifm-color-primary-darker: #b17cf3;
+  --ifm-color-primary-darkest: #9556ef;
+  --ifm-color-primary-light: #d4b7f8;
+  --ifm-color-primary-lighter: #ddc4f9;
+  --ifm-color-primary-lightest: #f3e7fc;
+  --docusaurus-highlighted-code-line-bg: rgba(198, 160, 246, 0.1);
+  --ifm-background-color: #24273a;
+  --ifm-navbar-background-color: #1e2030;
+}

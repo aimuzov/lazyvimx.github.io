@@ -1,0 +1,42 @@
+{
+  "version.label": {
+    "message": "Текущая",
+    "description": "The label for version current"
+  },
+  "sidebar.docsSidebar.category.Getting Started": {
+    "message": "Начало работы",
+    "description": "The label for category Getting Started in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.link.getting-started": {
+    "message": "Начало работы",
+    "description": "The label for link getting-started in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.link.configuration": {
+    "message": "Конфигурация",
+    "description": "The label for link configuration in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.link.extras": {
+    "message": "Дополнения",
+    "description": "The label for link extras in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.link.keybindings": {
+    "message": "Клавиатурные привязки",
+    "description": "The label for link keybindings in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.link.architecture": {
+    "message": "Архитектура",
+    "description": "The label for link architecture in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.link.api": {
+    "message": "API Справочник",
+    "description": "The label for link api in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.link.faq": {
+    "message": "FAQ",
+    "description": "The label for link faq in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.link.troubleshooting": {
+    "message": "Устранение неполадок",
+    "description": "The label for link troubleshooting in sidebar docsSidebar"
+  }
+}
