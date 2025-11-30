@@ -17,7 +17,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://lazyvimx.github.io",
+  url: "https://lazyvimx.aimuzov.online",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For user sites (username.github.io), use "/"
   baseUrl: "/",
