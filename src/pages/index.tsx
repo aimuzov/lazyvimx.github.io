@@ -1,17 +1,18 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
+import type { ReactNode } from "react";
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import Heading from "@theme/Heading";
+import Translate, { translate } from "@docusaurus/Translate";
 
-import styles from './index.module.css';
+import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
@@ -20,13 +21,15 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/getting-started">
-            Get Started
+            to="/docs/getting-started"
+          >
+            <Translate id="homepage.getStarted">Get Started</Translate>
           </Link>
           <Link
             className="button button--outline button--lg margin-left--md"
-            to="https://github.com/aimuzov/LazyVimx">
-            View on GitHub
+            to="https://github.com/aimuzov/LazyVimx"
+          >
+            <Translate id="homepage.viewOnGitHub">View on GitHub</Translate>
           </Link>
         </div>
       </div>
@@ -35,11 +38,21 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} - Enhanced LazyVim Configuration`}
-      description="Enhanced LazyVim configuration with extensive customizations, UI improvements, and workflow optimizations">
+      title={translate({
+        id: "homepage.title",
+        message: "lazyvimx - Enhanced LazyVim Configuration",
+        description: "The homepage title",
+      })}
+      description={translate({
+        id: "homepage.description",
+        message:
+          "Enhanced LazyVim configuration with extensive customizations, UI improvements, and workflow optimizations",
+        description: "The homepage description",
+      })}
+    >
       <HomepageHeader />
       <main>
         <HomepageFeatures />

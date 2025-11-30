@@ -1,0 +1,46 @@
+{
+  "link.title.Documentation": {
+    "message": "Documentation",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Community": {
+    "message": "Community",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Getting Started": {
+    "message": "Getting Started",
+    "description": "The label of footer link with label=Getting Started linking to /docs/getting-started"
+  },
+  "link.item.label.Configuration": {
+    "message": "Configuration",
+    "description": "The label of footer link with label=Configuration linking to /docs/configuration"
+  },
+  "link.item.label.Extras": {
+    "message": "Extras",
+    "description": "The label of footer link with label=Extras linking to /docs/extras"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/aimuzov/LazyVimx"
+  },
+  "link.item.label.Telegram": {
+    "message": "Telegram",
+    "description": "The label of footer link with label=Telegram linking to https://t.me/aimuzov_dotfiles"
+  },
+  "link.item.label.LazyVim": {
+    "message": "LazyVim",
+    "description": "The label of footer link with label=LazyVim linking to https://github.com/LazyVim/LazyVim"
+  },
+  "link.item.label.Author": {
+    "message": "Author",
+    "description": "The label of footer link with label=Author linking to https://github.com/aimuzov"
+  },
+  "copyright": {
+    "message": "Built with Docusaurus. © 2025 Aleksey Imuzov",
+    "description": "The footer copyright"
+  }
+}
