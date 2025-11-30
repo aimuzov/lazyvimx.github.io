@@ -26,6 +26,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "aimuzov", // Usually your GitHub org/user name.
   projectName: "lazyvimx.github.io", // Usually your repo name.
+  deploymentBranch: "gh-pages", // Branch to deploy to for GitHub Pages.
 
   trailingSlash: false,
 
